@@ -36,41 +36,10 @@ mrlCompatible='2685'
 i01 = Runtime.createAndStart("i01", "InMoov")
 
 ##############
-# robot checkup and initialisation ( skeleton & services )
+# Robot checkup and initialisation ( skeleton & services )
 RuningFolder="InMoov"
 execfile(RuningFolder+'/system/InitCheckup.py')
 
-
-# ###################################################################################
-# SAMPLE COMMANDS 
-#
-# WARNING : basic vocal commands ( activated only if chatbot is disable inside config/service_A_Chatbot.config )
-#
-# Go further ! you can find more basic vocal commands into inmoovVocal/ear.addCommand
-# Go further !! you can find more associated functions into inmoovGestures
-# Go further !!! you can find almost all chatbot vocal command into chatbot\bots\[lang]\aiml\_inmoovGestures.aiml
-# ###################################################################################
-
-ear.addCommand("attach your finger", "i01.rightHand.index", "attach") #to remove soon
-ear.addCommand("disconnect your finger", "i01.rightHand.index", "detach")
-ear.addCommand("open your finger", "python", "fingeropen")
-ear.addCommand("close your finger", "python", "fingerclose")
-ear.addCommand("finger to the middle", "python", "fingermiddle")
-
-# functions called by the basic vocal commands engine
-def fingeropen():
-  i01.moveHand("right",0,0,0,0,0)
-  talkBlocking("ok I open my finger")
-
-def fingerclose():
-  i01.moveHand("right",180,180,180,180,180)
-  talkBlocking("my finger is closed")
-
-def fingermiddle():
-  i01.moveHand("right",90,90,90,90,90)
-  talkBlocking("ok you have my attention")  
-  
-
-##############
-#Go further !!!! and write some code lines inside custom/InMoov_custom.py
+#############
+# Movements
 execfile(RuningFolder+'custom/InMoov_custom.py')
