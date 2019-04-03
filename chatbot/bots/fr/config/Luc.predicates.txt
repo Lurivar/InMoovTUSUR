@@ -1,0 +1,13 @@
+lui:fais deux
+courant:
+quoi:fais deux
+memoriser:incomprehension de "fais deux" dans le contexte : unknown pour "Luc"
+mastercontent:incomprehension de "fais deux" dans le contexte : unknown
+toi:fais deux
+botname:Hal 9000
+aurevoir:oui
+jsenabled:true
+identity:0
+name:Luc
+topic:unknown
+articles:

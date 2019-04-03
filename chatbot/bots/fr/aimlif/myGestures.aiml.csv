@@ -1,0 +1,13 @@
+0,FAIS UN,*,*,<oob>#Newline			<mrl>#Newline				<service>python</service>#Newline				<method>exec</method>#Newline				<param>rightHandCountOne()</param>#Newline			</mrl>#Newline		</oob>,myGestures.aiml
+0,DEUX,*,*,<oob>#Newline			<mrl>#Newline				<service>python</service>#Newline				<method>exec</method>#Newline				<param>rightHandCountTwo()</param>#Newline			</mrl>#Newline		</oob>,myGestures.aiml
+0,TROIS,*,*,<oob>#Newline			<mrl>#Newline				<service>python</service>#Newline				<method>exec</method>#Newline				<param>rightHandCountThree()</param>#Newline			</mrl>#Newline		</oob>,myGestures.aiml
+0,QUATRE,*,*,<oob>#Newline			<mrl>#Newline				<service>python</service>#Newline				<method>exec</method>#Newline				<param>rightHandCountFour()</param>#Newline			</mrl>#Newline		</oob>,myGestures.aiml
+0,CINQ,*,*,<oob>#Newline			<mrl>#Newline				<service>python</service>#Newline				<method>exec</method>#Newline				<param>rightHandCountFive()</param>#Newline			</mrl>#Newline		</oob>,myGestures.aiml
+0,SIX,*,*,<oob>#Newline			<mrl>#Newline				<service>python</service>#Newline				<method>exec</method>#Newline				<param>handsCountSix()</param>#Newline			</mrl>#Newline		</oob>,myGestures.aiml
+0,SEPT,*,*,<oob>#Newline			<mrl>#Newline				<service>python</service>#Newline				<method>exec</method>#Newline				<param>handsCountSeven()</param>#Newline			</mrl>#Newline		</oob>,myGestures.aiml
+0,HUIT,*,*,<oob>#Newline			<mrl>#Newline				<service>python</service>#Newline				<method>exec</method>#Newline				<param>handsCountEight()</param>#Newline			</mrl>#Newline		</oob>,myGestures.aiml
+0,NEUF,*,*,<oob>#Newline			<mrl>#Newline				<service>python</service>#Newline				<method>exec</method>#Newline				<param>handsCountNine()</param>#Newline			</mrl>#Newline		</oob>,myGestures.aiml
+0,DIX,*,*,<oob>#Newline			<mrl>#Newline				<service>python</service>#Newline				<method>exec</method>#Newline				<param>handsCountTen()</param>#Newline			</mrl>#Newline		</oob>,myGestures.aiml
+0,COMPTE JUSQU'A DIX,*,*,<oob>#Newline			<mrl>#Newline				<service>python</service>#Newline				<method>exec</method>#Newline				<param>countToTen()</param>#Newline			</mrl>#Newline		</oob>,myGestures.aiml
+0,TEST UN,*,*,<oob>#Newline			<mrl>#Newline				<service>python</service>#Newline				<method>exec</method>#Newline				<param>hi()</param>#Newline			</mrl>#Newline		</oob>,myGestures.aiml
+0,TEST DEUX,*,*,<oob>#Newline			<mrl>#Newline				<service>python</service>#Newline				<method>exec</method>#Newline				<param>hello()</param>#Newline			</mrl>#Newline		</oob>,myGestures.aiml

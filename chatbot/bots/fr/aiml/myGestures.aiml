@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+<!--  -->
+<!--  -->
+<category><pattern>FAIS UN</pattern>
+<template><oob>
+			<mrl>
+				<service>python</service>
+				<method>exec</method>
+				<param>rightHandCountOne()</param>
+			</mrl>
+		</oob></template>
+</category>
+<category><pattern>FAIS DEUX</pattern>
+<template><oob>
+			<mrl>
+				<service>python</service>
+				<method>exec</method>
+				<param>rightHandCountTwo()</param>
+			</mrl>
+		</oob></template>
+</category>
+<category><pattern>FAIS TROIS</pattern>
+<template><oob>
+			<mrl>
+				<service>python</service>
+				<method>exec</method>
+				<param>rightHandCountThree()</param>
+			</mrl>
+		</oob></template>
+</category>
+<category><pattern>FAIS QUATRE</pattern>
+<template><oob>
+			<mrl>
+				<service>python</service>
+				<method>exec</method>
+				<param>rightHandCountFour()</param>
+			</mrl>
+		</oob></template>
+</category>
+<category><pattern>FAIS CINQ</pattern>
+<template><oob>
+			<mrl>
+				<service>python</service>
+				<method>exec</method>
+				<param>rightHandCountFive()</param>
+			</mrl>
+		</oob></template>
+</category>
+<category><pattern>FAIS SIX</pattern>
+<template><oob>
+			<mrl>
+				<service>python</service>
+				<method>exec</method>
+				<param>handsCountSix()</param>
+			</mrl>
+		</oob></template>
+</category>
+<category><pattern>FAIS SEPT</pattern>
+<template><oob>
+			<mrl>
+				<service>python</service>
+				<method>exec</method>
+				<param>handsCountSeven()</param>
+			</mrl>
+		</oob></template>
+</category>
+<category><pattern>FAIS HUIT</pattern>
+<template><oob>
+			<mrl>
+				<service>python</service>
+				<method>exec</method>
+				<param>handsCountEight()</param>
+			</mrl>
+		</oob></template>
+</category>
+<category><pattern>FAIS NEUF</pattern>
+<template><oob>
+			<mrl>
+				<service>python</service>
+				<method>exec</method>
+				<param>handsCountNine()</param>
+			</mrl>
+		</oob></template>
+</category>
+<category><pattern>FAIS DIX</pattern>
+<template><oob>
+			<mrl>
+				<service>python</service>
+				<method>exec</method>
+				<param>handsCountTen()</param>
+			</mrl>
+		</oob></template>
+</category>
+<category><pattern>COMPTE JUSQU'A DIX</pattern>
+<template><oob>
+			<mrl>
+				<service>python</service>
+				<method>exec</method>
+				<param>countToTen()</param>
+			</mrl>
+		</oob></template>
+</category>
+<category><pattern>TEST UN</pattern>
+<template><oob>
+			<mrl>
+				<service>python</service>
+				<method>exec</method>
+				<param>hi()</param>
+			</mrl>
+		</oob></template>
+</category>
+<category><pattern>TEST DEUX</pattern>
+<template><oob>
+			<mrl>
+				<service>python</service>
+				<method>exec</method>
+				<param>hello()</param>
+			</mrl>
+		</oob></template>
+</category>
+</aiml>

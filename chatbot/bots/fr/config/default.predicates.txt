@@ -1,0 +1,18 @@
+lui:COMPTE UN
+courant:
+quoi:COMPTE UN
+memoriser:incomprehension de "COMPTE UN" dans le contexte : default pour "default"
+mastercontent:incomprehension de "COMPTE UN" dans le contexte : default
+toi:COMPTE UN
+botname:Hal 9000
+lastUsername:Luc
+tmpname:
+jsenabled:true
+null:
+MagicCommandToWakeUp:wake up
+identity:0
+firstinit:ok
+name:Luc
+topic:default
+questionfirstinit:
+articles:
